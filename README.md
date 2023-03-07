@@ -18,8 +18,9 @@
 
 This is a personal portfolio page created with React. It displays my projects that I have worked on and includes relevant links and other information. This is a demonstration of the skills I've built during my time in coding boot camp!
 Screenshot:
-![image]
-(https://user-images.githubusercontent.com/113566829/223414215-af718f9e-6050-48f4-9662-b9718f1ba255.png)
+
+![image](https://user-images.githubusercontent.com/113566829/223414215-af718f9e-6050-48f4-9662-b9718f1ba255.png)
+
 
 ## Installation
 
