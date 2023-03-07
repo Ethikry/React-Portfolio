@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Ethikry/React-Portfolio/static/css/main.9e194242.css",
-    "main.js": "/Ethikry/React-Portfolio/static/js/main.561b0350.js",
+    "main.js": "/Ethikry/React-Portfolio/static/js/main.3ea90ce9.js",
     "static/js/787.a2cb61a6.chunk.js": "/Ethikry/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
     "index.html": "/Ethikry/React-Portfolio/index.html",
     "static/media/resume.txt": "/Ethikry/React-Portfolio/static/media/resume.2112a845ce65a8e7fa12.txt",
     "main.9e194242.css.map": "/Ethikry/React-Portfolio/static/css/main.9e194242.css.map",
-    "main.561b0350.js.map": "/Ethikry/React-Portfolio/static/js/main.561b0350.js.map",
+    "main.3ea90ce9.js.map": "/Ethikry/React-Portfolio/static/js/main.3ea90ce9.js.map",
     "787.a2cb61a6.chunk.js.map": "/Ethikry/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9e194242.css",
-    "static/js/main.561b0350.js"
+    "static/js/main.3ea90ce9.js"
   ]
 }
