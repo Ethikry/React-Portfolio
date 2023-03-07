@@ -19,7 +19,7 @@ export const Contact = () => {
       )
       .then(
         (result) => {
-          alert(`Your message has been sent!`);
+          alert(`Your message has been sent! ${name} ${email} ${message}`);
           console.log(result.text);
         },
         (error) => {
