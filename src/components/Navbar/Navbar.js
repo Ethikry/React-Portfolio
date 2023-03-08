@@ -8,7 +8,7 @@ function Navbar() {
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <ul className="">
           <li className="ml-3 text-xl title-font font-medium text-white mb-4 md:mb-0">
-            <Link to="/">Ethan Gayton</Link>
+            <Link to="/React-Portfolio/">Ethan Gayton</Link>
           </li>
         </ul>
 
