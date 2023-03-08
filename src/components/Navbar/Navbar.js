@@ -17,7 +17,7 @@ function Navbar() {
             <li className="mr-5">
               <NavLink
                 exact="true"
-                to="/"
+                to="/React-Portfolio/"
                 className={(navData) =>
                   navData.isActive ? "font-bold text-white" : "none"
                 }
@@ -27,7 +27,7 @@ function Navbar() {
             </li>
             <li className="mr-5">
               <NavLink
-                to="/portfolio"
+                to="/React-Portfolio/portfolio"
                 className={(navData) =>
                   navData.isActive ? "font-bold text-white" : "none"
                 }
@@ -40,7 +40,7 @@ function Navbar() {
         <ul>
           <li className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
             <NavLink
-              to="/contact"
+              to="/React-Portfolio/contact"
               className={(navData) =>
                 navData.isActive ? "font-bold text-white" : "none"
               }
@@ -50,7 +50,7 @@ function Navbar() {
           </li>
           <li className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
             <NavLink
-              to="/resume"
+              to="/React-Portfolio/resume"
               className={(navData) =>
                 navData.isActive ? "font-bold text-white" : "none"
               }

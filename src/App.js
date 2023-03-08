@@ -79,13 +79,13 @@ function App() {
       <main className="text-gray-400 bg-gray-900 body-font h-screen justify-between">
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<About />} />
+          <Route exact path="/React-Portfolio/" element={<About />} />
           <Route
-            path="/portfolio"
+            path="/React-Portfolio/portfolio"
             element={<Portfolio projects={projects} />}
           />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/React-Portfolio/contact" element={<Contact />} />
+          <Route path="/React-Portfolio/resume" element={<Resume />} />
         </Routes>
         <Footer />
       </main>
