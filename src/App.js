@@ -65,12 +65,12 @@ function App() {
     {
       id: 6,
       image:
-        "https://www.freepnglogos.com/uploads/play-button-png/circular-play-button-svg-png-icon-download-onlinewebfontsm-30.png",
+        "https://user-images.githubusercontent.com/113566829/224222452-f6d865a6-119b-4fcb-9e8e-61051bcabfff.png",
       alt: "Project 6",
-      title: "To be announced",
-      description: "Check back soon!",
-      link: "https://github.com/Ethikry",
-      repoLink: "https://github.com/Ethikry",
+      title: "Sounds-Easy",
+      description: "A free to use web soundboard",
+      link: "https://sounds-easy.herokuapp.com/",
+      repoLink: "https://github.com/eljayman/sounds-easy",
     },
   ];
 
