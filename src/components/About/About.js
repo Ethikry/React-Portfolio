@@ -14,13 +14,12 @@ function About() {
         ></img>
       </div>
       <div className="container col-start-5 col-span-2 flex items-center">
-        Ethan is a junior full stack web developer. Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Hi, I'm Ethan. I'm passionate about bringing ideas to life through
+        creative and dynamic web applications. I specialize in crafting
+        user-friendly designs and developing engaging web apps. Feel free to
+        explore my portfolio to see some of my work in action. If you're looking
+        for help with your next project or just want to chat about web
+        development, games, travel or cat pictures, let's connect!
       </div>
     </div>
   );
