@@ -8,7 +8,7 @@ function Navbar() {
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <ul className="">
           <li className="ml-3 text-xl title-font font-medium text-white mb-4 md:mb-0">
-            <Link to="/React-Portfolio/">Ethan Gayton</Link>
+            <Link to="/">Ethan Gayton</Link>
           </li>
         </ul>
 
@@ -17,7 +17,7 @@ function Navbar() {
             <li className="mr-5">
               <NavLink
                 exact="true"
-                to="/React-Portfolio/"
+                to="/"
                 className={(navData) =>
                   navData.isActive ? "font-bold text-white" : "none"
                 }
@@ -27,7 +27,7 @@ function Navbar() {
             </li>
             <li className="mr-5">
               <NavLink
-                to="/React-Portfolio/portfolio"
+                to="/portfolio"
                 className={(navData) =>
                   navData.isActive ? "font-bold text-white" : "none"
                 }
@@ -40,7 +40,7 @@ function Navbar() {
         <ul>
           <li className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
             <NavLink
-              to="/React-Portfolio/contact"
+              to="/contact"
               className={(navData) =>
                 navData.isActive ? "font-bold text-white" : "none"
               }
@@ -50,7 +50,7 @@ function Navbar() {
           </li>
           <li className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
             <NavLink
-              to="/React-Portfolio/resume"
+              to="/resume"
               className={(navData) =>
                 navData.isActive ? "font-bold text-white" : "none"
               }
