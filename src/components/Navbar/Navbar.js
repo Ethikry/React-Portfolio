@@ -5,7 +5,7 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <header className="bg-gray-800 md:sticky top-0 z-10">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center text-gray-400">
         <ul className="">
           <li className="ml-3 text-xl title-font font-medium text-white mb-4 md:mb-0">
             <Link to="/">Ethan Gayton</Link>
@@ -16,20 +16,28 @@ function Navbar() {
           <ul>
             <li className="mr-5">
               <NavLink
-                exact="true"
                 to="/"
-                className={(navData) =>
-                  navData.isActive ? "font-bold text-white" : "none"
+                className={({ isActive }) =>
+                  `px-4 ${
+                    isActive
+                      ? "font-bold text-white underline-none"
+                      : "hover:underline"
+                  }`
                 }
               >
                 About Me
               </NavLink>
             </li>
+
             <li className="mr-5">
               <NavLink
                 to="/portfolio"
-                className={(navData) =>
-                  navData.isActive ? "font-bold text-white" : "none"
+                className={({ isActive }) =>
+                  `px-4 ${
+                    isActive
+                      ? "font-bold text-white underline-none"
+                      : "hover:underline"
+                  }`
                 }
               >
                 Portfolio
@@ -38,21 +46,29 @@ function Navbar() {
           </ul>
         </nav>
         <ul>
-          <li className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+          <li className="inline-flex items-center">
             <NavLink
               to="/contact"
-              className={(navData) =>
-                navData.isActive ? "font-bold text-white" : "none"
+              className={({ isActive }) =>
+                `px-4 ${
+                  isActive
+                    ? "font-bold text-white bg-none"
+                    : "hover:bg-slate-700 border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0"
+                }`
               }
             >
               Contact
             </NavLink>
           </li>
-          <li className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+          <li className="inline-flex items-center">
             <NavLink
               to="/resume"
-              className={(navData) =>
-                navData.isActive ? "font-bold text-white" : "none"
+              className={({ isActive }) =>
+                `px-4 ${
+                  isActive
+                    ? "font-bold text-white bg-none"
+                    : "hover:bg-slate-700 border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0"
+                }`
               }
             >
               Resume

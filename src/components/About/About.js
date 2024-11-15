@@ -14,12 +14,11 @@ function About() {
         ></img>
       </div>
       <div className="container col-start-5 col-span-2 flex items-center">
-        Hi, I'm Ethan. I'm passionate about bringing ideas to life through
-        creative and dynamic web applications. I specialize in crafting
-        user-friendly designs and developing engaging web apps. Feel free to
-        explore my portfolio to see some of my work in action. If you're looking
-        for help with your next project or just want to chat about web
-        development, games, travel or cat pictures, let's connect!
+        Hi, I'm Ethan. I'm a creative person and very passionate about the work
+        I do, such as crafting user-friendly designs and developing engaging web
+        apps. Feel free to explore my portfolio to see some of my work in
+        action. If you're looking for help with your next project or just want
+        to chat about web development, games, or travel, let's connect!
       </div>
     </div>
   );

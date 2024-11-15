@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Fullpage from "@fullpage/react-fullpage";
 
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
@@ -76,19 +77,21 @@ function App() {
 
   return (
     <Router>
-      <main className="text-gray-400 bg-gray-900 body-font h-screen justify-between">
+      <div className="flex flex-col min-h-screen">
         <Navbar />
-        <Routes>
-          <Route exact path="/" element={<About />} />
-          <Route
-            path="/portfolio"
-            element={<Portfolio projects={projects} />}
-          />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/resume" element={<Resume />} />
-        </Routes>
+        <main className="flex-grow text-gray-400 bg-gray-900 body-font justify-between">
+          <Routes>
+            <Route exact path="/" element={<About />} />
+            <Route
+              path="/portfolio"
+              element={<Portfolio projects={projects} />}
+            />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/resume" element={<Resume />} />
+          </Routes>
+        </main>
         <Footer />
-      </main>
+      </div>
     </Router>
   );
 }
