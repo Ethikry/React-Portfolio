@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Fullpage from "@fullpage/react-fullpage";
+import ReactFullpage from "@fullpage/react-fullpage";
 
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
@@ -76,7 +76,7 @@ function App() {
   ];
 
   return (
-    <Router>
+    /*     <Router>
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow text-gray-400 bg-gray-900 body-font justify-between">
@@ -90,6 +90,36 @@ function App() {
             <Route path="/resume" element={<Resume />} />
           </Routes>
         </main>
+        <Footer />
+      </div>
+    </Router> */
+    <Router>
+      <div className="flex flex-col min-h-screen">
+        <Navbar />
+        <ReactFullpage
+          //fullpage options
+          licenseKey={""}
+          scrollingSpeed={1000} // Options as needed
+          render={({ fullpageApi }) => (
+            <ReactFullpage.Wrapper>
+              <div className="section">
+                <About />
+                <button onClick={() => fullpageApi.moveSectionDown()}>
+                  Click me to move down
+                </button>
+              </div>
+              <div className="section">
+                <Portfolio projects={projects} />
+              </div>
+              <div className="section">
+                <Contact />
+              </div>
+              <div className="section">
+                <Resume />
+              </div>
+            </ReactFullpage.Wrapper>
+          )}
+        />
         <Footer />
       </div>
     </Router>
